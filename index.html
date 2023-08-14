@@ -11,15 +11,16 @@
 <body>
 
     <nav id="nav">
-        <p>Awesome Books</p>
-        <ul>
+        <p id="logo">Awesome Books</p>
+        <ul id="navLinks">
             <li class="navLinks">List</li>
-            <li class="navLinks">Add new</li>
+            <li id="addLinkButton" class="navLinks">Add new</li>
             <li class="navLinks">Contact</li>
         </ul>
     </nav>
-    <section id="displayBooks">
-        <h1>All Awesome Books</h1>
+    <section class="sections centerCont" id="displayBooks">
+        <h1 class="titleText">All Awesome Books</h1>
+
         <div class="bookList">
             <div class="bookContainer">
                 <p>Fulano by Mengano</p>
@@ -43,10 +44,35 @@
             </div>
         </div>
     </section>
-    <section id=""></section>
-    <section id=""></section>
+    <section class="sections centerCont" id="addForm">
+
+        <h2 class="titleText">Add a new Book</h2>
+
+        <form class="centerCont" action="">
+            <input class="inputFields" type="text" placeholder="Title">
+            <input class="inputFields" type="text" placeholder="Author">
+            <div id="buttonCont">
+                <button id="addButton" type="submit">Add</button>
+            </div>
+          </form>
+
+    </section>
+    <section class="sections centerCont" id="contactInfo">
+
+        <h3 id="contactTitle" class="titleText">Contact Information</h3>
+        <p id="contactP">Do you have any questions or you  just want to say "Hello"?
+            You can reach out to us!
+        </p>
+
+        <ul>
+            <li class="contactList">Our e-mail: mail@mail.com</li>
+            <li class="contactList">Our phone number: 0043586534422</li>
+            <li class="contactList">Our adress: Streetname 22,84503 City, Country</li>
+        </ul>
+
+    </section>
     <footer>
-        <p>CopiRight</p>
+        <p>CopyRight</p>
     </footer>
 
 
